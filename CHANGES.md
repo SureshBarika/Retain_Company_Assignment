@@ -37,6 +37,7 @@ This document summarizes the key changes made to refactor the legacy Flask-based
 
 ### ✅ Folder Structure
 messy-migration-refactored/
+```
 ├── app/
 │ ├── init.py # App factory pattern
 │ ├── routes.py # Flask route handlers
@@ -46,6 +47,7 @@ messy-migration-refactored/
 ├── init_db.py
 ├── app.py # Entrypoint
 └── requirements.txt
+```
 
 
 ### ✅ Architectural Changes
